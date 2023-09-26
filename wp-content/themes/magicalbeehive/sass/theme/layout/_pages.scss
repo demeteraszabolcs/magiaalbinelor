@@ -1,0 +1,121 @@
+.deco-wrap {
+  text-align: center;
+  overflow: hidden;
+
+  .honey-deco {
+    width: 530px;
+
+    &.top {
+      margin-top: -52px;
+      margin-bottom: 60px;
+    }
+
+    &.bottom {
+      margin-bottom: -52px;
+      margin-top: 25px;
+    }
+	}
+
+	.wax-deco {
+		width: 70px;
+	}
+
+}
+
+.home {
+	section#main-home {
+		background-color: #f3eeeb;
+		position: relative;
+
+		&::after {
+			content: '';
+			width: 530px;
+			height: 173px;
+			position: absolute;
+			bottom: -70px;
+			right: -100px;
+			background-image: url(../images/deco-bottom.png);
+			background-size: contain;
+		}
+	}
+
+	.deco-wrap.top {
+		background-color: #f3eeeb;
+	}
+}
+
+section#video-home {
+	background: #191816;
+}
+
+section#trace-home, section#trace-cert {
+	background-color: #f3eeeb;
+}
+
+section#trace-cert {
+	position: relative;
+
+	.deco-wrap {
+		img {
+			margin-bottom: 15px;
+		}
+	}
+
+	.container {
+		position: absolute;
+		bottom: 60px;
+		left: 0;
+		right: 0;
+	}
+}
+
+section#certification-home {
+	.bg-primary {
+		overflow: hidden;
+
+		.absolute-bg {
+			position: absolute;
+			width: 50%;
+			height: 100%;
+			top: 0;
+			
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+	
+			&.right {
+				right: 0;
+			}
+			&.left {
+				left: 0;
+			}
+		}
+
+		.center-icon {
+			width: 130px;
+			height: 160px;
+			background: #191816;
+			// padding: 35px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: flex;
+
+			img {
+				margin: auto;
+				width: 55px;
+			}
+		}
+	}
+}
+
+.about-us .wp-block-column {
+  padding: 20px;
+}
+
+#tracetable_wrapper {
+	margin-top: 80px;
+}

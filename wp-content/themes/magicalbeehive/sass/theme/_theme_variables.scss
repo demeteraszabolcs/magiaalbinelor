@@ -1,0 +1,17 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+$theme-colors: (
+  primary: #bf9625,
+  secondary: #eccc6b,
+  light: #ffe8a2,
+  grey: #5c5c5c,
+);
+
+$container-max-widths: (
+  md: 720px,
+  lg: 900px,
+  xl: 1020px
+);

@@ -1,0 +1,37 @@
+$orange: map-get($theme-colors , "primary" );
+
+#products-home {
+	.products {
+		.col {
+			height: 340px;
+			position: relative;
+			.product {
+				border: 2px solid $orange;
+				padding: 30px 15px;
+				height: 240px;
+
+				img {
+					position: absolute;
+					width: 170px;
+					left: 0;
+					right: 0;
+					margin: 0 auto;
+					bottom: 20px;
+				}
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				width: 24px;
+				height: 20px;
+				left: 0;
+				right: 0;
+				top: -9px;
+				margin: 0 auto;
+				background-image: url(../images/honey-dot.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+}

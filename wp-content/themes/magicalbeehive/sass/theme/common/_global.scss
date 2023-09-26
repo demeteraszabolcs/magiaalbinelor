@@ -1,0 +1,72 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main .container {
+  padding: 0 80px;
+  padding-bottom: 60px;
+}
+
+main {
+	text-align: center;
+
+	.entry-content {
+		padding: 0 80px;
+		padding-bottom: 60px;
+	}
+}
+
+.wrapper {
+	padding: 0;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  margin-bottom: 1.7rem;
+  font-weight: 400;
+  color: #424242;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: map-get($theme-colors, "primary");
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+h4 {
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.wp-block-columns.has-2-columns {
+	text-align: left;
+}
+
+#page-wrapper {
+  overflow: hidden;
+}

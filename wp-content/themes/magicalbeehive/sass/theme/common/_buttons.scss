@@ -1,0 +1,36 @@
+$orange: map-get($theme-colors , "primary" );
+
+.mbh-button {
+	display: inline-flex;
+	margin-top: 30px;
+
+	.mbh-link {
+		text-transform: uppercase;
+		font-size: 11.5px;
+		letter-spacing: 1px;
+		padding: 11px 20px;
+		background-color: #181817;
+		min-width: 190px;
+		color: $orange !important;
+		text-align: center;
+
+		&.inverse {
+			background-color: $orange;
+			color: #181817 !important;
+		}
+	}
+}
+.wp-block-button {
+	display: inline-flex;
+	margin-top: 30px;
+
+	.wp-block-button__link {
+		text-transform: uppercase;
+		font-size: 11.5px;
+		letter-spacing: 1px;
+		padding: 11px 20px;
+		background-color: #181817;
+		min-width: 190px;
+		color: $orange !important;		
+	}
+}
