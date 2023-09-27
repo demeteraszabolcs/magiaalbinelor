@@ -59,7 +59,7 @@ if ( woocommerce_product_loop() ) {
 	woocommerce_product_loop_start();
 
 	if ( wc_get_loop_prop( 'total' ) ) {
-		echo do_shortcode("[br_filters_group group_id=232]");
+		echo do_shortcode("[br_filters_group group_id=229]");
 		while ( have_posts() ) {
 			the_post();
 

@@ -1,0 +1,26 @@
+{
+    "remotePath": "./",
+    "host": "ftp.magiaalbinelor.com",
+    "username": "gitaccount",
+    "password": "d8TH7t#Fu7A}Kk{k",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [],
+        "path": ""
+    },
+    "detailedSyncSummary": true
+}
