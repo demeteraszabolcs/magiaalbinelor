@@ -8,7 +8,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-
+ 
 
 /**
  * Removes the parent themes stylesheet and scripts from inc/enqueue.php
